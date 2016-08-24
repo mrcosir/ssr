@@ -20,11 +20,11 @@ CopyrightLogo='
 ==========================================================================';
 echo "$CopyrightLogo";
 # FILES  ******************************************************************
-ServerLocation='raw';
+ServerLocation='master';
 # VAR	******************************************************************
 Model=$1;
 Froms=$2;
-MirrorHost='github.com/mu228/ssr/maste';
+MirrorHost='github.com/mu228/ssr/raw';
 IPAddress=`wget http://members.3322.org/dyndns/getip -O - -q ; echo`;
 #==========================================================================
 echo 
